@@ -1,6 +1,27 @@
-node_modules/
-vendor/
-.env
+# ----------------------
+# Front-end (Node.js / JS)
+# ----------------------
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.env
+
+# ----------------------
+# Back-end (PHP / Composer)
+# ----------------------
+backend/vendor/
+backend/.env
+backend/*.log
+
+# ----------------------
+# OS / Editor
+# ----------------------
 .DS_Store
 .vscode/
-dist/
+Thumbs.db
+Desktop.ini
+
+# ----------------------
+# Optional: ignore any .gitignore files in subfolders
+# ----------------------
+**/.gitignore
