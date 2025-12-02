@@ -1,0 +1,102 @@
+﻿﻿body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    background: linear-gradient(135deg, #e6f7ff, #ffffff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Center container */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+/* Bigger login card */
+.login-card {
+    width: 100%;
+    max-width: 550px; /* increased from 400px */
+    padding: 50px; /* increased padding */
+    background: rgba(255,255,255,0.8);
+    backdrop-filter: blur(20px);
+    border-radius: 25px;
+    box-shadow: 0 0 25px #007bff66;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+/* Title */
+.login-card h2 {
+    font-size: 2rem; /* bigger title */
+    margin-bottom: 40px;
+    color: #007bff;
+    text-shadow: 0 0 10px #007bff44;
+}
+
+/* Input group */
+.input-group {
+    position: relative;
+    margin-bottom: 25px;
+}
+
+.input-group i {
+    position: absolute;
+    top: 50%;
+    left: 18px;
+    transform: translateY(-50%);
+    color: #007bff;
+    font-size: 1.5rem; /* bigger icons */
+    text-shadow: 0 0 5px #00bcd4, 0 0 10px #00bcd466;
+}
+
+.input-group input,
+.input-group select {
+    width: 100%;
+    padding: 16px 18px 16px 55px; /* bigger input area */
+    font-size: 1rem;
+    border-radius: 14px;
+    border: 1px solid rgba(0,123,255,0.3);
+    background: rgba(255,255,255,0.7);
+    backdrop-filter: blur(8px);
+    outline: none;
+    transition: all 0.3s ease;
+    box-sizing: border-box;
+}
+
+.input-group input:focus,
+.input-group select:focus {
+    border-color: #00bcd4;
+    box-shadow: 0 0 15px #00bcd4aa;
+}
+
+/* Hint text */
+.hint {
+    display: block;
+    font-size: 0.9rem;
+    color: #007bffaa;
+    margin-top: 8px;
+    min-height: 18px;
+}
+
+/* Bigger button */
+.login-btn {
+    width: 100%;
+    padding: 16px;
+    border: none;
+    border-radius: 14px;
+    background: #007bff;
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.login-btn:hover {
+    background: #00bcd4;
+    box-shadow: 0 0 20px #00bcd4aa;
+}
